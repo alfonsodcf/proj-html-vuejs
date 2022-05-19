@@ -52,6 +52,7 @@ export default {
 <style lang="scss">
  @import "./assets/styles/general.scss"; 
 #app {
+  min-width: 1600px;
   .more{
     height: 350px;
     
