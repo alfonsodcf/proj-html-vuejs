@@ -98,12 +98,13 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
     header{
         color: white;
         background-image: url(../assets/img/hero-07-2x.jpg);
         background-size: cover;
         background-position: center;
+        position: relative;
         nav{
             ul{
                 list-style: none;
@@ -115,7 +116,7 @@ export default {
                         
                         color: white;
                         &:hover{
-                            color: yellow;
+                            color: #F6BD41;
                         }
                     }
                 }
@@ -127,7 +128,7 @@ export default {
             margin-top: -80px;
         }
     .intestazine{
-        width: 100vh;
+        width: 40vw;
         padding-left: 100px;
         display: inline-block;
         margin-bottom: 200px;
