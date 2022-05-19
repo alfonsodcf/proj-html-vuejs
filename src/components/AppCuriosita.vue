@@ -1,7 +1,7 @@
 <template>
     <section class="container">
         <h2 class="text-center">Dig A Little Deeper Into Damon Vaughn</h2>
-        <p class="text-center">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</p>
+        <p class="text-center find">FIND OUT MORE ABOUT THE AUTHOR HIMSELF</p>
         <div>
             <div class="about text-center">
                 <h3>About Me</h3>
@@ -36,6 +36,25 @@ export default {
 
 <style lang="scss" scoped>
 
+    section{
+        margin-top: 50px;
+        color: white;
+        margin-bottom: 80px;
+        h2{
+            color: black;
+        }
+        .find{
+            color: #49A987;
+        }
+        p{
+            color: #F6BD41 ;
+
+        }
+        h3{
+            padding-top: 95%;
+        }
+    }
+
     .about{
         background-image: url(../assets/img/box-1.jpg);
         background-size: cover;
@@ -44,6 +63,8 @@ export default {
         height: 500px;
         display: inline-block;
         margin: 20px;
+        
+        
     }
 
      .book{
@@ -54,6 +75,7 @@ export default {
         height: 500px;
         display: inline-block;
         margin: 20px;
+        
     }
 
      .signing{
@@ -64,5 +86,6 @@ export default {
         height: 500px;
         display: inline-block;
         margin: 20px;
+      
     }
 </style>

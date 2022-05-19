@@ -12,8 +12,8 @@
 
             <div class="info text-center">
                 <h3>New Audiobook</h3>
-                <p>NO TIME READ? NO PROBLEM. LISTEN TO IT</p>
-                <P>Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend congue corsus.</P>
+                <p class="p1">NO TIME READ? NO PROBLEM. LISTEN TO IT</p>
+                <P class="p2">Donec fringilla nunc eu turpis dignissim, at euismod sapien tincidunt. Maecenas eleifend congue corsus.</P>
                 <div>
                     <img src="../assets/img/audible-logo.png" alt="audible-logo">
                     <img src="../assets/img/bn-logo-tall.png" alt="logo-tall">
@@ -38,7 +38,7 @@ export default {
     .logi{
         background-color: #FEF7E9;
         img{
-            width: 200px;
+            width: 300px;
             padding: 20px;
         }
     }
@@ -62,6 +62,17 @@ export default {
             width: 35rem;
             padding-top: 200px;
             color: white;
+            h3{
+                font-size: 40px;
+
+            }
+            .p1{
+                font-size: 20px;
+                color: #F6BD41;
+            }
+            .p2{
+                font-size: 15px;
+            }
             img{
                 padding: 20px;
             }

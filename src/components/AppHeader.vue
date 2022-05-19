@@ -17,12 +17,12 @@
         
         <div class="intestazine">
             <h1>Damon Vaughn</h1>
-            <h2>Best-selling author and the most influential public intellectual in the western world right now.</h2>
+            <h2>Best-Selling Author And The Most Influential Public Intellectual In The Western World Right Now.</h2>
             <p>- The New York Times</p>
-            <div>
+            <!-- <div>
                 <a href="#">L</a>
                 <a href="#">R</a>
-            </div>
+            </div> -->
         </div>
         <div class="book">
             <img src="../assets/img/book-widget.png" alt="book-widget">
@@ -105,6 +105,8 @@ export default {
         background-size: cover;
         background-position: center;
         position: relative;
+        height: 100vh;
+        min-height: 1000px;
         nav{
             ul{
                 list-style: none;
@@ -128,10 +130,21 @@ export default {
             margin-top: -80px;
         }
     .intestazine{
-        width: 40vw;
-        padding-left: 100px;
+        width: 60vw;
+        padding-left: 200px;
         display: inline-block;
-        margin-bottom: 200px;
+        padding-top: 200px;
+        h1{
+            font-size: 70px;
+            color: #F6BD41;
+        }
+        h2{
+            font-size: 50px;
+        }
+        p{
+            color: gray;
+            font-size: 30px;
+        }
     }
     .book{
         position: absolute;
@@ -139,6 +152,7 @@ export default {
         bottom: 0px;
         
         background-color: white;
+        padding: 40px;
         display: inline-block;
 
         img{
@@ -151,16 +165,25 @@ export default {
             color: black;
             margin-bottom: -400px;
             h4{
-                color: yellow;
+                color: #F6BD41;
             }
         }
         .css-bottoni{
             text-align: center;
             margin-bottom: 30px;
+            
             a{
                 color: black;
-                padding: 15px;
-                border: 1px solid greenyellow;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 60px;
+                padding-right: 60px;
+                margin: 20px;
+                border: 1px solid #49A987;
+                &:hover{
+                    background-color: #49A987;
+                    color: white;
+                }
             }
         }
     }   

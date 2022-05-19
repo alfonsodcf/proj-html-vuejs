@@ -2,7 +2,7 @@
     <section>
         <div class="container">
             <h2>Recent Articles</h2>
-            <p>READ THE LATEST ENTRIES</p>
+            <p class="cs-verde">READ THE LATEST ENTRIES</p>
             <button type="button" class="btn btn-warning">Warning</button>
             <div>
                 <div class="Suggerimenti">
@@ -35,9 +35,14 @@ export default {
 
 <style lang="scss" scoped>
     section{
+        padding-top: 100px;
+        padding-bottom: 100px;
         background-color: #FEF7E9;
-        p{
+        .cs-verde{
             display: inline-block;
+            color: #49A987;
+            margin-right: 52vw;
+            margin-bottom: 30px;
         }
         .Suggerimenti{
             display: inline-block;

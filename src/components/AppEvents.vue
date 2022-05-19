@@ -1,7 +1,7 @@
 <template>
     <section >
         <h2 class="text-center">Upcoming Events</h2>
-        <p class="text-center">MEET THE AUTHOR IN PERSON</p>
+        <p class="text-center meet">MEET THE AUTHOR IN PERSON</p>
         <div class="container">
             <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -27,7 +27,7 @@
       <img src="../assets/img/event-07.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. to additional content. to additional content.</p>
       </div>
     </div>
   </div>
@@ -49,7 +49,16 @@ export default {
 
 section{
     background-color: #FEF7E9;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    h2{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .meet{
+        padding-bottom: 20px;
+        color: #F6BD41;
+    }
 }
 
 </style>

@@ -2,10 +2,10 @@
   <div id="app">
     <app-header/>
     <main>
-      <section class="text-center container">
-        <h2>Mone About Damon Vaughn</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eius nulla suscipit natus mollitia. Adipisci minus vero quis, voluptate quod ullam quidem tenetur, rerum nihil deserunt debitis totam. Alias, rem.</p>
-        <button type="button" class="btn btn-success text-center">Success</button>
+      <section class="text-center container more">
+        <h2>More About Damon Vaughn</h2>
+        <p>Damon Vaughn is a professor of psychology at the University of Toronto, a clinical psychologist and the author of the multi-million copy bestseller “The story of my life.”</p>
+        <button type="button" class="btn btn-success text-center">Meet the Author</button>
       </section>
 
       <digital-book/>
@@ -52,6 +52,17 @@ export default {
 <style lang="scss">
  @import "./assets/styles/general.scss"; 
 #app {
-  
+  .more{
+    height: 350px;
+    
+    h2{
+      font-size: 70px;
+      margin-top: 100px;
+      color: #F6BD41
+    }
+    p{
+      font-size: 30px;
+    }
+  }
 }
 </style>

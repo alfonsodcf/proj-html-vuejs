@@ -51,7 +51,7 @@ export default {
       background-image: url(../assets/img/hero-07-2x.jpg);
         background-size: cover;
         background-position: top;
-        height: 600px;  
+        height: 520px;  
         color: white;
         .cs-griglia{
             display: inline-block;
